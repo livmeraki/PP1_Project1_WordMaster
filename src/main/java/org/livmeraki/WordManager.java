@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class WordManager {
     public static void main(){
         int menuInput;
+
         Scanner s = new Scanner(System.in);
         while(true){
             System.out.println("*** 영단어 마스터 ***\n" +
@@ -21,6 +22,28 @@ public class WordManager {
             menuInput = s.nextInt();
 
             if(menuInput==0) break;
+            else if (menuInput == 1){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
+            else if (menuInput == 2){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+
+            }
+            else if (menuInput == 3){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
+            else if (menuInput == 4){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
+            else if (menuInput == 5){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
+            else if (menuInput == 6){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
+            else if (menuInput == 7){
+                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+            }
         }
 
 
