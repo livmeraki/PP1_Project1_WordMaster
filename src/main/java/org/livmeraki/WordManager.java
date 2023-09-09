@@ -1,14 +1,17 @@
 package org.livmeraki;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordManager {
     public static void main(){
-        int menuInput;
 
+        int menuInput, index;
+        WordCRUD WCRUD = new WordCRUD();
         Scanner s = new Scanner(System.in);
+
         while(true){
-            System.out.println("*** 영단어 마스터 ***\n" +
+            System.out.print("*** 영단어 마스터 ***\n" +
                     "1. 모든 단어 보기\n" +
                     "2. 수준별 단어 보기\n" +
                     "3. 단어 검색\n" +
@@ -23,17 +26,16 @@ public class WordManager {
 
             if(menuInput==0) break;
             else if (menuInput == 1){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.read();
             }
             else if (menuInput == 2){
                 System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
-
             }
             else if (menuInput == 3){
                 System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
             }
             else if (menuInput == 4){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.add();
             }
             else if (menuInput == 5){
                 System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
