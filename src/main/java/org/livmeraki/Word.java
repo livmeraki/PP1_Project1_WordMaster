@@ -37,4 +37,15 @@ public class Word {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+    public String toString() {
+        String levelStar = "*";
+        for (int i=1;i<level;i++){
+            levelStar += "*";
+        }
+        String str = String.format("%-3s", levelStar)
+                + String.format("%15s", vocab) + "  "
+                +meaning;
+        return str;
+    }
 }

@@ -25,7 +25,7 @@ public class WordCRUD implements ICRUD{
     public void add() {
         int level = 0;
         String vocab = "";
-        String meaning;
+        String meaning = "";
 
         index += 1;
 
@@ -33,20 +33,25 @@ public class WordCRUD implements ICRUD{
             System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
 
             String userInput = s.nextLine();
-
-            System.out.print("뜻 입력 : ");
-            meaning = s.nextLine();
+            
             int i = userInput.indexOf(' ');
 
             try {
                 level = Integer.parseInt(userInput.substring(0, i));
                 vocab = userInput.substring(i);
+                if(level>3 || level<1){
+                    System.out.println("1~3 사이의 숫자를 입력해주세요.");
+                    continue;
+                }
                 break;
             }
             catch(Exception e){
                 System.out.println("잘못 입력하셨습니다. 정해진 형식에 맞게 입력해주세요.");
             }
+
         }
+        System.out.print("뜻 입력 : ");
+        meaning = s.nextLine();
 
         list.add(new Word(vocab, level, meaning));
         System.out.println("새 단어가 단어장에 추가되었습니다 !!!");
@@ -56,16 +61,12 @@ public class WordCRUD implements ICRUD{
     @Override
     public void read() {
         Word tmp;
-        System.out.println("********************");
+        System.out.println("--------------------------------");
         for(int i=0;i<=index;i++){
-            tmp = list.get(i);
-            for(int j=0;j<tmp.getLevel();j++){
-                System.out.print("*");
-            }
-            System.out.print(tmp.getVocab());
-            System.out.println(tmp.getMeaning());
+            System.out.print(i+1+" ");
+            System.out.println(list.get(i).toString());
         }
-        System.out.println("********************");
+        System.out.println("--------------------------------");
 
     }
 
