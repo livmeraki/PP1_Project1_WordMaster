@@ -39,13 +39,13 @@ public class WordManager {
                 WCRUD.add();
             }
             else if (menuInput == 5){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.update();
             }
             else if (menuInput == 6){
                 System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
             }
             else if (menuInput == 7){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.saveFile();
             }
         }
 

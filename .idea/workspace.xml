@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c447ee49-cc9e-4e22-a762-979019538c88" name="Changes" comment="WordCRUD add() debugged">
+    <list default="true" id="c447ee49-cc9e-4e22-a762-979019538c88" name="Changes" comment="WordCRUD read() debugged">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/livmeraki/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/livmeraki/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordManager.java" afterDir="false" />
     </list>
@@ -25,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -58,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694260259440</updated>
-      <workItem from="1694260260870" duration="5859000" />
+      <workItem from="1694260260870" duration="6745000" />
+      <workItem from="1694447449284" duration="6715000" />
     </task>
     <task id="LOCAL-00001" summary="4 new classes&#10;1 new interface">
       <option name="closed" value="true" />
@@ -84,7 +87,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694265193452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WordCRUD read() debugged">
+      <option name="closed" value="true" />
+      <created>1694266284871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694266284871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="WordCRUD read() debugged">
+      <option name="closed" value="true" />
+      <created>1694267196128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694267196128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +113,7 @@
     <MESSAGE value="4 new classes&#10;1 new interface" />
     <MESSAGE value="update WordManager&#10;UI text added" />
     <MESSAGE value="WordCRUD add() debugged" />
-    <option name="LAST_COMMIT_MESSAGE" value="WordCRUD add() debugged" />
+    <MESSAGE value="WordCRUD read() debugged" />
+    <option name="LAST_COMMIT_MESSAGE" value="WordCRUD read() debugged" />
   </component>
 </project>
