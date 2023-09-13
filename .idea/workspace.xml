@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c447ee49-cc9e-4e22-a762-979019538c88" name="Changes" comment="WordCRUD read() debugged">
+    <list default="true" id="c447ee49-cc9e-4e22-a762-979019538c88" name="Changes" comment="WordCRUD saveFile() added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/livmeraki/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wordlist.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694260259440</updated>
       <workItem from="1694260260870" duration="6745000" />
-      <workItem from="1694447449284" duration="6715000" />
+      <workItem from="1694447449284" duration="12500000" />
     </task>
     <task id="LOCAL-00001" summary="4 new classes&#10;1 new interface">
       <option name="closed" value="true" />
@@ -103,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694267196128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WordCRUD saveFile() added">
+      <option name="closed" value="true" />
+      <created>1694537004513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694537004513</updated>
+    </task>
+    <task id="LOCAL-00007" summary="WordCRUD saveFile() added">
+      <option name="closed" value="true" />
+      <created>1694537019153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694537019153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +131,7 @@
     <MESSAGE value="update WordManager&#10;UI text added" />
     <MESSAGE value="WordCRUD add() debugged" />
     <MESSAGE value="WordCRUD read() debugged" />
-    <option name="LAST_COMMIT_MESSAGE" value="WordCRUD read() debugged" />
+    <MESSAGE value="WordCRUD saveFile() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="WordCRUD saveFile() added" />
   </component>
 </project>

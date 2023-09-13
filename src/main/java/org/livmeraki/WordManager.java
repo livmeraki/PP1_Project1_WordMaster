@@ -9,6 +9,9 @@ public class WordManager {
         int menuInput, index;
         WordCRUD WCRUD = new WordCRUD();
         Scanner s = new Scanner(System.in);
+
+        index = WCRUD.readFile();
+        System.out.println("=> "+index+"개 단어 로딩 완료!");
         System.out.println("*** 영단어 마스터 ***");
 
         while(true){
@@ -30,10 +33,12 @@ public class WordManager {
                 WCRUD.read();
             }
             else if (menuInput == 2){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.printAllLevel();
             }
             else if (menuInput == 3){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                System.out.print("=> 검색할 단어 입력 : ");
+                s.nextLine();
+                WCRUD.printAll(s.nextLine());
             }
             else if (menuInput == 4){
                 WCRUD.add();
@@ -42,7 +47,7 @@ public class WordManager {
                 WCRUD.update();
             }
             else if (menuInput == 6){
-                System.out.println("This menu is not yet ready to be implemented. Sorry for your troubles.");
+                WCRUD.delete();
             }
             else if (menuInput == 7){
                 WCRUD.saveFile();
